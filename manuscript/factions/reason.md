@@ -15,7 +15,7 @@ Los Artificieros se dedican a construir máquinas por el bien de la humanidad.
 > porque acabará con el hambre, el trabajo y todo el mundo podrá dedicarse a ser científico y artista.
 
 
-![](../images/leonardo-da-vinci.jpg)
+![](/images/leonardo-da-vinci.jpg)
 
 ----------------------------
 5. [ ] Leonardo da Vinci invoca a Deus ex Machina y su avatar es absorvido por la Máquina.
