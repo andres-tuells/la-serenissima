@@ -3,7 +3,9 @@ title: Deus ex Machina
 lang: en-US
 ---
 
-[](images/maldonati.gif)
+![](images/maldonati.gif)
+
+
 # Ubicaciones
 
 Usar arte de wraith

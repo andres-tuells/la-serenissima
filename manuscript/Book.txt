@@ -1,1 +1,6 @@
+factions/reason.md
+factions/tradition.md
+factions/benandanti.md
+factions/malandanti.md
+factions/inquisition.md
 secrets.md
