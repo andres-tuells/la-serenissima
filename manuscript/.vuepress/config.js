@@ -1,12 +1,15 @@
+
 module.exports = {
     title: 'Pax Magica',
     description: 'Survival is coming.',
     lastUpdated: 'Last Updated', // string | boolean
-    plugins: [
-        '@silvanite/tailwind'
+    head: [
+      ['link', { rel: 'stylesheet', href: `https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css` }],
+      // ['script', { src: `https://cdn.jsdelivr.net/npm/vue/dist/vue.js` }],
+      // ['script', { src: `https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js` }],
     ],
     markdown: {
-        extendMarkdown: md => {
+        config: md => {
             md.use(require("markdown-it-katex"));
             md.use(require('markdown-it-task-lists'));
             md.use(require('markdown-it-container'));
