@@ -34,6 +34,7 @@ Fuerza 6, Materia 6, Cardinal 6, Correspondencia 5, Espíritu 3
 - [ ] Haussdorf fue alumno directo de Leonardo pero la envidia y la corrosión pudo con él. Quería ser superior pero Leonardo le demostraba una y otra vez que no era suficientemente bueno. Por despecho Haussdorf se retiró para superar a su maestro.
 - [ ] Leonardo se siente muy vivo, muy creativo. Tiene nuevas ideas para la magia.
 - [ ] La Weird-science de Leonardo no gusta entre varios círculos tecnocráticos y se comenta que se está saltando las reglas. Hay quien piensa que es un genio y un visionario y hay quien piensa que sus ideas son demasiado locas para el mundo.
+- [ ] Leonardo roba alguna quintaesencia u objeto menor. Al robar algo mayor viene Herón y lo devuelve.
 ----------------------------
 **Nivel 2**
 - [ ] El grupo de Magos de los Desarraigados roban una serie de planos y material para una máquina voladora. Se estaba haciendo en los talleres de Venecia. Leonardo llama porque informa que han entrado en su laboratorio y las defensas mataron a uno de ellos.
@@ -69,6 +70,9 @@ Fisico 2, Social 3, Mental 4
 Alerta 6, Artesanía 8
 Teleportarse.
 ```
+
+|![Familiar de Leonardo - Herón](../../images/buho.jpg#centerme )  | *Herón el Buho Mecánico de Alejandría*  |
+|---|---|
 
 - [ ] Al ojalá no te hubiera creado él contesta ojalá no me hubieras creado.
 - [ ] Prefiere no salir fuera por no sufrir la Paradoja.

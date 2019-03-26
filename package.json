@@ -4,7 +4,7 @@
   "description": "A Mage Sorcerer Crusader Campaign",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev manuscript",
+    "dev": "./node_modules/vuepress/cli.js dev manuscript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/andres-tuells/la-serenissioma#readme",
   "dependencies": {
+    "@silvanite/vuepress-plugin-tailwind": "^1.1.0",
     "markdown-it-katex": "^2.0.3",
-    "markdown-it-task-lists": "^2.1.1"
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^1.0.0-alpha.44"
   }
 }

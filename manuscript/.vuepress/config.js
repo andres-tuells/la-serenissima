@@ -2,10 +2,14 @@ module.exports = {
     title: 'Pax Magica',
     description: 'Survival is coming.',
     lastUpdated: 'Last Updated', // string | boolean
+    plugins: [
+        '@silvanite/tailwind'
+    ],
     markdown: {
-      config: md => {
-        md.use(require("markdown-it-katex"));
-        md.use(require('markdown-it-task-lists'));
+        extendMarkdown: md => {
+            md.use(require("markdown-it-katex"));
+            md.use(require('markdown-it-task-lists'));
+            md.use(require('markdown-it-container'));
       }
     },
     themeConfig: {
@@ -16,11 +20,12 @@ module.exports = {
         {
           text: 'Facciones',
           items: [
-            { text: 'La Orden de la Razón', link: '/factions/reason/' },
+            { text: 'La Razón', link: '/factions/reason/' },
             { text: 'Las Tradiciones', link: '/factions/tradition' },
-            { text: 'Los Benandanti', link: '/factions/benandanti' },
+            { text: 'Los Benandanti', link: '/factions/benandanti/' },
             { text: 'Los Malandanti', link: '/factions/malandanti' },
             { text: 'La Inquisición', link: '/factions/inquisition' },
+            { text: 'El Doge', link: '/factions/doge' },
             { text: 'Otros',
               items: [
                   { text: 'Los Monellos', link: 'factions/others/monellos'},
@@ -43,8 +48,11 @@ module.exports = {
             text: 'Aventuras',
             items: [
               { text: 'La Gran Evasion', link: '/quests/great-evasion'},
+              { text: 'Una noche en la Opera', link: '/quests/a-night-in-opera'},
               { text: 'Rey por un día', link: '/quests/king-for-a-day'},
               { text: 'La Muerte Negra', link: '/quests/black-death'},
+              { text: 'La Puerta de Marfíl', link: '/quests/ivory-gate'},
+              { text: 'La Fortaleza Escondida', link: '/quests/hidden-fortress'},
             ]
         },  
         {
