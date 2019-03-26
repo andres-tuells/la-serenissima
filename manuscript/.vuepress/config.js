@@ -16,46 +16,44 @@ module.exports = {
         {
           text: 'Facciones',
           items: [
-            { text: 'La Orden de la Razón', link: '/factions/reason' },
+            { text: 'La Orden de la Razón', link: '/factions/reason/' },
             { text: 'Las Tradiciones', link: '/factions/tradition' },
             { text: 'Los Benandanti', link: '/factions/benandanti' },
             { text: 'Los Malandanti', link: '/factions/malandanti' },
-            { text: 'Los Malandanti', link: '/factions/inquisition' },
+            { text: 'La Inquisición', link: '/factions/inquisition' },
+            { text: 'Otros',
+              items: [
+                  { text: 'Los Monellos', link: 'factions/others/monellos'},
+              ]
+            }
           ]
         },
         {
           text: 'Lugares',
           items: [
-            { text: 'La Serenissima', link: '/robotics/'},
-            { text: 'Fruili', link: '/robotics/from-idea-to-robotics'},
-            { text: 'Nueva Jerusalem', link: '/robotics/from-idea-to-robotics'},
-            { text: 'Doissetep', link: '/robotics/from-idea-to-robotics'},
-            { text: 'Castillo de Gargantua', link: '/robotics/from-idea-to-robotics'},
-            { text: 'Castillo Infernal', link: '/robotics/from-idea-to-robotics'}
+            { text: 'La Serenissima', link: '/locations/serenissima'},
+            { text: 'Fruili', link: '/locations/friuli'},
+            { text: 'Nueva Jerusalem', link: '/locations/new-jerusalem'},
+            { text: 'Doissetep', link: '/locations/doissetep'},
+            { text: 'Gargantua', link: '/locations/gargantua'},
+            { text: 'El Castillo', link: '/locations/infernal-castle'}
           ]
-        },
-        {
-            text: 'Personajes',
-            items: [
-              { text: 'Leonardo da Vinci', link: '/robotics/'},
-              { text: 'Tamurello', link: '/robotics/from-idea-to-robotics'},
-              { text: 'Eudomonia', link: '/robotics/from-idea-to-robotics'},
-              { text: 'Doissetep', link: '/robotics/from-idea-to-robotics'},
-              { text: 'Castillo de Gargantua', link: '/robotics/from-idea-to-robotics'},
-              { text: 'Castillo Infernal', link: '/robotics/from-idea-to-robotics'}
-            ]
         },
         {
             text: 'Aventuras',
             items: [
-              { text: 'La Serenissima', link: '/robotics/'},
-              { text: 'Fruili', link: '/robotics/from-idea-to-robotics'},
-              { text: 'Nueva Jerusalem', link: '/robotics/from-idea-to-robotics'},
-              { text: 'Doissetep', link: '/robotics/from-idea-to-robotics'},
-              { text: 'Castillo de Gargantua', link: '/robotics/from-idea-to-robotics'},
-              { text: 'Castillo Infernal', link: '/robotics/from-idea-to-robotics'}
+              { text: 'La Gran Evasion', link: '/quests/great-evasion'},
+              { text: 'Rey por un día', link: '/quests/king-for-a-day'},
+              { text: 'La Muerte Negra', link: '/quests/black-death'},
             ]
-          },  
+        },  
+        {
+            text: 'Extras',
+            items: [
+              { text: 'Música', link: '/extras/musica'},
+              { text: 'Inspiraciones', link: '/extras/inspirations'},
+            ]
+        },  
       ]
       
     }
