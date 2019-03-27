@@ -57,22 +57,9 @@ sheet:
 **Nivel 5**
 - [ ] Leonardo da Vinci invoca a Deus ex Machina y su avatar es absorvido por la Máquina.
 
+## Personajes relacionados
 
-## Herón de Alejandría
-
-> Autómata construído por Leonardo y nombre en honor a Herón de Alejandria.
-> Leonardo siempre le gruñe y le llama ignorante y estupido.
-> El es paciente, educado y le pone caras. Le dice "calla gruñón"
-
-![Familiar de Leonardo - Herón](../images/buho.jpg#centerme )*Herón el Buho Mecánico de Alejandría*
-
-```
-Fisico 2, Social 3, Mental 4
-Alerta 6, Artesanía 8
-Teleportarse.
-```
-- [ ] Al ojalá no te hubiera creado él contesta ojalá no me hubieras creado.
-- [ ] Prefiere no salir fuera por no sufrir la Paradoja.
+<Character slug="heron-de-alejandria" />
 
 ## Laboratorio
 

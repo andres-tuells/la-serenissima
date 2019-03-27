@@ -4,6 +4,7 @@ module.exports = {
   lastUpdated: 'Last Updated', // string | boolean
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css'}],
+    ['link', { rel: 'icon', href: '/john-dee-monad-trans2.png' }]
     //['link', { rel: 'stylesheet', href: `https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css` }],
     // ['script', { src: `https://cdn.jsdelivr.net/npm/vue/dist/vue.js` }],
     // ['script', { src: `https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js` }],
@@ -28,6 +29,7 @@ module.exports = {
     }
   },
   themeConfig: {
+    logo: '/john-dee-monad-trans.png',
     displayAllHeaders: true, // Default: false
     sidebar: 'auto',
     nav: [
