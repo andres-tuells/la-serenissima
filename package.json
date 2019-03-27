@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "./node_modules/vuepress/cli.js dev docs",
-    "build": "./node_modules/vuepress/cli.js build docs",
-    "eject": "./node_modules/vuepress/cli.js eject docs"
+    "dev": "./node_modules/vuepress/cli.js dev www",
+    "build": "./node_modules/vuepress/cli.js build www",
+    "eject": "./node_modules/vuepress/cli.js eject www"
   },
   "devDependencies": {
     "node-sass": "^4.11.0",
@@ -11,6 +11,8 @@
     "vuepress": "^1.0.0-alpha.44"
   },
   "dependencies": {
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-task-lists": "^2.1.1",
     "tailwindcss-card": "^0.1.0"
   }
 }

@@ -6,9 +6,7 @@ En la Venecia del 1620 una serie de fuerzas conspiran para moldear Europa.
 
 - [ ] list
 
-$\sqrt{3x-1}+(1+x)^2$
-
-<List-Characters/>
+<Character slug="leonardo-da-vinci" />
 
 ## La Serenissima
   ### La Orden de la Razón

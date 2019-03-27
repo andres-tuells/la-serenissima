@@ -14,6 +14,12 @@ module.exports = {
       require('autoprefixer'),
     ]
   },
+  extendMarkdown: md => {
+    md.set({ breaks: true })
+    md.use(require("markdown-it-katex"));
+    md.use(require('markdown-it-task-lists'));
+    md.use(require('markdown-it-container'));
+  },
   markdown: {
       config: md => {
           md.use(require("markdown-it-katex"));

@@ -1,22 +1,25 @@
+---
+title: Leonardo da Vinci
+slug: leonardo-da-vinci
+faction: reason
+location: venice
+description: Gran Maese de la Casa de los Artificieros y Governador del Regio de Venecia 
+image: leonardo-da-vinci.jpg
+sheet:
+    - Físico 1, Social 4, Mental 6
+    - Artesanía 9, Armas 7, Ocultismo 8
+    - Fuerza 6, Materia 6, Cardinal 6, Correspondencia 5, Espíritu 3
+---
+
 # Leonardo da Vinci
 
+<Character slug="leonardo-da-vinci" />
 
 > El Gran Maestre de los Artificieros y regente de Reino Invisible de Venecia. 
 > Poco sale de su laboratorio. En su búsqueda del Reino de Doissetep ha descubierto la existencia de Deus ex Machina. 
 > Le fascina totalmente. Está convencido que la Máquina será el bien supremo de la humanidad, 
 > porque acabará con el hambre, el trabajo y todo el mundo podrá dedicarse a ser científico y artista.
 
-
-![Leonardo da Vinci](../../images/leonardo-da-vinci.jpg#centerme "Leonardo da Vinci")*Gran Maestre Leonardo da Vinci de la Orden de los artificieros. Regente de Venecia.*
-
-------------------------------
-```
-Archimago de Fuerzas, Materia y Cardinal
-Físico 1, Social 4, Mental 6
-Fuerza 6, Materia 6, Cardinal 6, Correspondencia 5, Espíritu 3
-```
-
-----------------------------
 ## Historias
 
 **Nivel 0**
@@ -49,9 +52,7 @@ Fuerza 6, Materia 6, Cardinal 6, Correspondencia 5, Espíritu 3
 ----------------------------
 **Nivel 4**
 - [ ] Leonardo necesita entrar en Doissetep porque ahí está el conocimiento secreto de Herón de Alejandría. Se va a buscarla. Desaparece. Cuando vuelve a aparecer tiene el conocimiento necesario para invocar a Deus ex Machina
-- [ ] Leonardo está muy obsesionado hasta el punto de la enfermedad mental. La realidad se moldea alrededor suyo. Es un Merodeador. Su Reino es un Laberinto de relojes mecánicos. Todos están conectados entre ellos y puede desplazarse de un sitio a otro.
-![](../../images/deus-ex-machina.jpg#certerme)*Reino de Deus ex Machina*
-Desde su Locura se instaura un regimen de terror. Toda máquina es susceptible de convertirse en un portal a su Reino.
+- [ ] Leonardo está muy obsesionado hasta el punto de la enfermedad mental. La realidad se moldea alrededor suyo. Es un Merodeador. Su Reino es un Laberinto de relojes mecánicos. Todos están conectados entre ellos y puede desplazarse de un sitio a otro. Desde su Locura se instaura un regimen de terror. Toda máquina es susceptible de convertirse en un portal a su Reino.
 ----------------------------
 **Nivel 5**
 - [ ] Leonardo da Vinci invoca a Deus ex Machina y su avatar es absorvido por la Máquina.
@@ -63,22 +64,26 @@ Desde su Locura se instaura un regimen de terror. Toda máquina es susceptible d
 > Leonardo siempre le gruñe y le llama ignorante y estupido.
 > El es paciente, educado y le pone caras. Le dice "calla gruñón"
 
-![Familiar de Leonardo - Herón](../../images/buho.jpg#centerme )*Herón el Buho Mecánico de Alejandría*
+![Familiar de Leonardo - Herón](../images/buho.jpg#centerme )*Herón el Buho Mecánico de Alejandría*
 
 ```
 Fisico 2, Social 3, Mental 4
 Alerta 6, Artesanía 8
 Teleportarse.
 ```
-
-|![Familiar de Leonardo - Herón](../../images/buho.jpg#centerme )  | *Herón el Buho Mecánico de Alejandría*  |
-|---|---|
-
 - [ ] Al ojalá no te hubiera creado él contesta ojalá no me hubieras creado.
 - [ ] Prefiere no salir fuera por no sufrir la Paradoja.
 
 ## Laboratorio
 
+![](../images/leonardo-lab.jpg#centerme)
+*El Laboratorio de Leonardo sigue en uso*
+
 ## Deus ex Machina
 
+![](../images/deus-ex-machina.jpg#certerme)
+*Reino de Deus ex Machina*
+
 ## Castillo Flotante
+![](../images/flying-castle.jpg#centerme)
+*El Castillo Flotante de Leonardo*

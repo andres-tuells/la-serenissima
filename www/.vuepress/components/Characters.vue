@@ -1,12 +1,7 @@
 <template>
 <div>
-<div class="max-w-md w-full lg:flex" v-for="(item, index) in items">
-  <div class="card">
-    <img class="card-image" :src="$withBase('/' + item.frontmatter.image)">
-    <div class="card-content">
-        {{item.title}}
-    </div>
-  </div>
+<div v-for="(item, index) in items">
+  <Character :slug="item.frontmatter.slug" />
 </div>
 </div>
 </template>
@@ -16,15 +11,23 @@ export default {
 	data() {
 		return {};
 	}, 
+	props: {
+		faction: String,
+		location: String,
+		clocks: String,
+  },
 	computed:{
 		items() {
 			let items = this.$site.pages.filter(p => {
 				return p.path.indexOf('/characters/') >= 0;
+			}).filter( p => {
+				if (this.faction && this.faction!=p.frontmatter.faction) return false;
+				return true;
 			}).sort((a,b) => {
 				return a.title < b.title;
 			});
 
-			return [...items, ...items];
+			return items;
 		}
 	}
 }

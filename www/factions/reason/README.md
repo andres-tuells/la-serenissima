@@ -3,6 +3,9 @@
 > La Orden de la Razón domina en las grandes ciudades y ha desbancado a la Orden de Hermes como organización dominante.
 > Creen en la Razón como Dios. Su símbolo es el Sol.
 
+
+<Characters faction="reason"/>
+
 -------------------------------
 **Nivel 0**
 - [ ] Dividen el mundo en Reinos Invisibles que se dedican a influir en la política y cultura del lugar.

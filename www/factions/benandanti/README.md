@@ -4,4 +4,12 @@
 > Caníbales con vocación de artistas
 > Son como gremlins, amantes de la sátira y el humor negro.
 
-- [Gargantua](./gargantua.html)
+## Quienes son
+
+## Origenes
+
+## Personajes
+
+<Characters faction="benandanti"/>
+
+## Historias
