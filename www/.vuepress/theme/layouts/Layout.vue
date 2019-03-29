@@ -31,7 +31,7 @@
 
     <Home v-if="$page.frontmatter.home"/>
 
-    <Elem
+    <Page
       v-else
       :sidebar-items="sidebarItems"
     >
@@ -43,7 +43,7 @@
         name="page-bottom"
         slot="bottom"
       />
-    </Elem>
+    </Page>
   </div>
 </template>
 

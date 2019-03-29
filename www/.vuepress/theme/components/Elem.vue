@@ -69,6 +69,7 @@
 
 <script>
 import { resolvePage, normalize, outboundRE, endingSlashRE } from '../util'
+const path = require('path');
 
 export default {
   props: ['sidebarItems'],
@@ -76,6 +77,14 @@ export default {
   computed: {
     lastUpdated () {
       return this.$page.lastUpdated
+    },
+
+    slug() {
+      return path.basename(this.$page.path).replace('.html','')
+    },
+
+    parent() {
+      return p.frontmatter.parent = path.dirname(p.path).replace('/','');
     },
 
     lastUpdatedText () {

@@ -1,5 +1,5 @@
 <template>
-<div class="bg-white max-w-xl shadow-lg rounded-lg overflow-hidden">
+<div class="bg-white max-w-xl shadow-lg rounded-lg overflow-hidden" v-if="item">
   <div class="wrapper sm:flex">
     <a :href="item.path">
       <img class="block h-16 sm:h-24 mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0" :src="$withBase('/' + item.frontmatter.image)">
@@ -40,6 +40,7 @@ export default {
 			}).map( p => {
         p.frontmatter.slug = path.basename(p.path).replace('.html','');
         p.frontmatter.parent = path.dirname(p.path).replace('/',''); 
+        p.frontmatter.parent_slug = path.basename(p.frontmatter.parent);
         return p;
       });
 			return items[0];

@@ -8,25 +8,32 @@
 </template>
 
 <script>
+
+const path = require('path');
+
 export default {
 	data() {
 		return {};
 	}, 
 	props: {
-		faction: String,
-		location: String,
-		path: String,
+		parent: String,
+		exclude: String,
   },
 	computed:{
+		path() {
+      		return path;
+    	},
 		items() {
-			let items = this.$site.pages.filter(p => {
-				if(!p.frontmatter.slug) return false;
-				if (!p.path ||p.path=='/') return false;
-				if (p.path.indexOf(`/extras/`) >= 0) return false;
-				if (!this.path) return true;
-				return p.path.indexOf(`/${this.path}/`) >= 0;
+			let items = this.$site.pages.map( p => {
+        		p.frontmatter.slug = path.basename(p.path).replace('.html','');
+				p.frontmatter.parent = path.dirname(p.path).replace('/','');
+				p.frontmatter.parent_slug = path.basename(p.frontmatter.parent);
+				return p;
 			}).filter( p => {
-				if (this.faction && this.faction!=p.frontmatter.faction) return false;
+				if (this.exclude && this.exclude==p.frontmatter.slug) return false;
+				return true;
+			}).filter( p => {
+				if (this.parent && this.parent!=p.frontmatter.parent) return false;
 				return true;
 			}).sort((a,b) => {
 				return a.title < b.title;
