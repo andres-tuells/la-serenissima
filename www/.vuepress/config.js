@@ -38,14 +38,15 @@ module.exports = {
         text: 'Facciones',
         items: [
           { text: 'La Razón', link: '/factions/reason/' },
-          { text: 'Las Tradiciones', link: '/factions/tradition' },
+          { text: 'Las Tradiciones', link: '/factions/tradition/' },
           { text: 'Los Benandanti', link: '/factions/benandanti/' },
-          { text: 'Los Malandanti', link: '/factions/malandanti' },
-          { text: 'La Inquisición', link: '/factions/inquisition' },
-          { text: 'El Doge', link: '/factions/doge' },
           { text: 'Otros',
             items: [
-                { text: 'Los Monellos', link: 'factions/others/monellos'},
+                { text: 'Los Monellos', link: 'factions/monellos'},
+                { text: 'Los Gatos', link: 'factions/cats'},
+                { text: 'El Doge', link: '/factions/doge' },
+                { text: 'Los Malandanti', link: '/factions/malandanti' },
+                { text: 'La Inquisición', link: '/factions/inquisition' },
             ]
           }
         ]
@@ -62,14 +63,10 @@ module.exports = {
         ]
       },
       {
-          text: 'Aventuras',
+          text: 'Tramas',
           items: [
-            { text: 'La Gran Evasion', link: '/quests/great-evasion'},
-            { text: 'Una noche en la Opera', link: '/quests/a-night-in-opera'},
-            { text: 'Rey por un día', link: '/quests/king-for-a-day'},
-            { text: 'La Muerte Negra', link: '/quests/black-death'},
-            { text: 'La Puerta de Marfíl', link: '/quests/ivory-gate'},
-            { text: 'La Fortaleza Escondida', link: '/quests/hidden-fortress'},
+            { text: 'Bon Appetit', link: '/plots/bon-appetit'},
+            { text: 'La Gran Evasion', link: '/plots/great-evasion'},
           ]
       },  
       {

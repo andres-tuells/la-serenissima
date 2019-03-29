@@ -11,14 +11,20 @@ sheet:
     - Fuerza 6, Materia 6, Cardinal 6, Correspondencia 5, Espíritu 3
 ---
 
+*Gran Maese de la Casa de los Artificieros y Governador del Regio de Venecia*
+
+El Gran Maestre de los Artificieros y regente de Reino Invisible de Venecia. 
+Poco sale de su laboratorio. En su búsqueda del Reino de Doissetep ha descubierto la existencia de Deus ex Machina. 
+Le fascina totalmente. Está convencido que la Máquina será el bien supremo de la humanidad, 
+porque acabará con el hambre, el trabajo y todo el mundo podrá dedicarse a ser científico y artista.
+
+<!-- more -->
+
 # Leonardo da Vinci
 
 <Character slug="leonardo-da-vinci" />
 
-> El Gran Maestre de los Artificieros y regente de Reino Invisible de Venecia. 
-> Poco sale de su laboratorio. En su búsqueda del Reino de Doissetep ha descubierto la existencia de Deus ex Machina. 
-> Le fascina totalmente. Está convencido que la Máquina será el bien supremo de la humanidad, 
-> porque acabará con el hambre, el trabajo y todo el mundo podrá dedicarse a ser científico y artista.
+
 
 ## Historias
 

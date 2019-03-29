@@ -1,13 +1,13 @@
 <template>
-<div class="character-wrapper">
-    <div class="character-img">
+<div class="site-card-wrapper">
+    <div class="site-card-img">
       <a :href="item.path"><img :src="$withBase('/' + item.frontmatter.image)"></a>
     </div>
-		<div class="character-info">
-      <div class="character-text">
+		<div class="site-card-info">
+      <div class="site-card-text">
         <h1><a :href="item.path">{{item.title}}</a></h1>
         <h2>{{item.frontmatter.faction}}</h2>
-				<ul class="character-sheet">
+				<ul class="site-card-sheet">
   				<li v-for="elem in item.frontmatter.sheet">
     				{{ elem }}
   				</li>
@@ -44,7 +44,7 @@ export default {
 
 <style>
 
-.character-sheet {
+.site-card-sheet {
 	background-color: black;
 	color: white;
 	padding: 15px;
@@ -53,9 +53,9 @@ export default {
 	margin-bottom: 20px;
 }
 
-.character-wrapper {
+.site-card-wrapper {
   height: 420px;
-  width: 654px;
+  width: 954px;
   margin: 50px auto;
   border-radius: 7px 7px 7px 7px;
   /* VIA CSS MATIC https://goo.gl/cIbnS */
@@ -64,46 +64,46 @@ export default {
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
-.character-img {
+.site-card-img {
   float: left;
   xxheight: 420px;
   xxwidth: 327px;
 	xxoverflow: hidden;
 }
 
-.character-img a img {
+.site-card-img a img {
   border-radius: 7px 0 0 7px;
 	height: 420px;
   width: 327px;
 	object-fit: cover;
 }
 
-.character-info {
+.site-card-info {
   float: left;
   height: 420px;
-  width: 327px;
+  width: 627px;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
 }
 
-.character-text {
+.site-card-text {
   height: 300px;
-  width: 327px;
+  width: 627px;
 }
 
-.character-text h1 {
+.site-card-text h1 {
   margin: 0 0 0 38px;
   padding-top: 15px;
   font-size: 34px;
   color: #474747;
 }
 
-.character-text h1,
-.character-price-btn p {
+.site-card-text h1,
+.site-card-price-btn p {
   font-family: 'Bentham', serif;
 }
 
-.character-text h2 {
+.site-card-text h2 {
   margin: 0 0 7px 38px;
   font-size: 13px;
   font-family: 'Raleway', sans-serif;
@@ -113,7 +113,7 @@ export default {
   letter-spacing: 0.2em;
 }
 
-.character-text p {
+.site-card-text p {
   height: 125px;
   margin: 0 0 0 38px;
   font-family: 'Playfair Display', serif;
@@ -124,14 +124,7 @@ export default {
   overflow: hidden;
 }
 
-.character-price-btn {
-  height: 103px;
-  width: 327px;
-  margin-top: 17px;
-  position: relative;
-}
-
-.character-price-btn p {
+.site-card-price-btn p {
   display: inline-block;
   position: absolute;
   top: -13px;
@@ -143,7 +136,7 @@ export default {
   color: #474747;
 }
 
-.character-price-btn button {
+.site-card-price-btn button {
   float: right;
   display: inline-block;
   height: 50px;
@@ -163,7 +156,7 @@ export default {
   outline: none;
 }
 
-.character-price-btn button:hover {
+.site-card-price-btn button:hover {
   background-color: #79b0a1;
 }
 </style>

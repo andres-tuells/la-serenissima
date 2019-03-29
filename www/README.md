@@ -1,12 +1,27 @@
 # Pax Magica
 
+Use https://vuepress.vuejs.org/guide/custom-themes.html#content-excerpt as description
+Create Card CardList and MiniCard as components
+
+types 
+- glossary
+- caracter
+- location
+- faction
+- object
+- clocks
+
 **Una Saga para Mago la cruzada**
 
 En la Venecia del 1620 una serie de fuerzas conspiran para moldear Europa.
 
 - [ ] list
 
-<Character slug="leonardo-da-vinci" />
+<TagList />
+
+<TagCard slug="leonardo-da-vinci" />
+
+<Card slug="leonardo-da-vinci" />
 
 ## La Serenissima
   ### La Orden de la Razón

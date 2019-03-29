@@ -5,7 +5,7 @@
 
 ## Alicia
 
-![](../../images/alicia.jpg)
+![](../images/alba.jpg)
 
 ## Nero
 
