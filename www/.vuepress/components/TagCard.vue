@@ -1,5 +1,5 @@
 <template>
-<div class="bg-white mx-auto max-w-xl shadow-lg rounded-lg overflow-hidden">
+<div class="bg-white max-w-xl shadow-lg rounded-lg overflow-hidden">
   <div class="wrapper sm:flex">
     <a :href="item.path">
       <img class="block h-16 sm:h-24 mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0" :src="$withBase('/' + item.frontmatter.image)">
@@ -7,7 +7,7 @@
     <div class="tagcard-right-elem text-center sm:text-left sm:flex-grow">
       <div class="mb-1">
         <h4><a :href="item.path">{{item.title}}</a></h4>
-        <p class="text-sm leading-tight text-grey-dark">{{item.frontmatter.faction}}</p>
+        <p class="text-sm leading-tight text-grey-dark">{{item.frontmatter.parent}}</p>
       </div>
       <p class="tagcard-text">
         {{item.frontmatter.description}}
@@ -18,6 +18,9 @@
 </template>
 
 <script>
+
+const path = require('path');
+
 export default {
 	data() {
 		return {};
@@ -26,12 +29,19 @@ export default {
     slug: String,
   },
 	computed:{
+    path() {
+      return path;
+    },
 		item() {
 			let items = this.$site.pages.filter(p => {
 				return p.frontmatter.slug == this.slug;
 			}).sort((a,b) => {
 				return a.title < b.title;
-			});
+			}).map( p => {
+        p.frontmatter.slug = path.basename(p.path).replace('.html','');
+        p.frontmatter.parent = path.dirname(p.path).replace('/',''); 
+        return p;
+      });
 			return items[0];
 		}
 	}

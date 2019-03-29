@@ -9,6 +9,9 @@ module.exports = {
     // ['script', { src: `https://cdn.jsdelivr.net/npm/vue/dist/vue.js` }],
     // ['script', { src: `https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js` }],
   ],
+  alias: {
+    '@theme': process.cwd()+ '/images'
+  },
   postcss: {
     plugins: [
       require('tailwindcss')(__dirname + '/tailwind.js'),

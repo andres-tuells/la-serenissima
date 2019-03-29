@@ -23,7 +23,6 @@ export default {
 				if(!p.frontmatter.slug) return false;
 				if (!p.path ||p.path=='/') return false;
 				if (p.path.indexOf(`/extras/`) >= 0) return false;
-				console.log('XXXX', p);
 				if (!this.path) return true;
 				return p.path.indexOf(`/${this.path}/`) >= 0;
 			}).filter( p => {

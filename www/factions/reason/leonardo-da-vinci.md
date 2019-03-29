@@ -11,22 +11,17 @@ sheet:
     - Fuerza 6, Materia 6, Cardinal 6, Correspondencia 5, Espíritu 3
 ---
 
-*Gran Maese de la Casa de los Artificieros y Governador del Regio de Venecia*
 
-El Gran Maestre de los Artificieros y regente de Reino Invisible de Venecia. 
-Poco sale de su laboratorio. En su búsqueda del Reino de Doissetep ha descubierto la existencia de Deus ex Machina. 
-Le fascina totalmente. Está convencido que la Máquina será el bien supremo de la humanidad, 
-porque acabará con el hambre, el trabajo y todo el mundo podrá dedicarse a ser científico y artista.
+## Abstract
+
+> El Gran Maestre de los Artificieros y regente de Reino Invisible de Venecia. 
+> Poco sale de su laboratorio. En su búsqueda del Reino de Doissetep ha descubierto la existencia de Deus ex Machina. 
+> Le fascina totalmente. Está convencido que la Máquina será el bien supremo de la humanidad, 
+> porque acabará con el hambre, el trabajo y todo el mundo podrá dedicarse a ser científico y artista.
 
 <!-- more -->
 
-# Leonardo da Vinci
-
-<Character slug="leonardo-da-vinci" />
-
-
-
-## Historias
+## Tramas
 
 **Nivel 0**
 - [ ] Un viejo se queda mirando un artefacto de los pj (un carro). Si le increpan o dicen algo contesta con "Cuídalo bien. Salió de mi taller"
@@ -63,20 +58,4 @@ porque acabará con el hambre, el trabajo y todo el mundo podrá dedicarse a ser
 **Nivel 5**
 - [ ] Leonardo da Vinci invoca a Deus ex Machina y su avatar es absorvido por la Máquina.
 
-## Personajes relacionados
 
-<Character slug="heron-de-alejandria" />
-
-## Laboratorio
-
-![](../images/leonardo-lab.jpg#centerme)
-*El Laboratorio de Leonardo sigue en uso*
-
-## Deus ex Machina
-
-![](../images/deus-ex-machina.jpg#certerme)
-*Reino de Deus ex Machina*
-
-## Castillo Flotante
-![](../images/flying-castle.jpg#centerme)
-*El Castillo Flotante de Leonardo*
