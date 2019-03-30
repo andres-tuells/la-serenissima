@@ -1,40 +1,37 @@
-# Pax Magica
+---
+title: Pax Magica
+description: Una Saga para Mago la Cruzada, en la Venecia de 1620 
+image: pax-magica.jpg
+sheet:
+    - Físico 1, Social 4, Mental 6
+    - Artesanía 9, Armas 7, Ocultismo 8
+    - Fuerza 6, Materia 6, Cardinal 6, Correspondencia 5, Espíritu 3
+---
 
-Use https://vuepress.vuejs.org/guide/custom-themes.html#content-excerpt as description
-Create Card CardList and MiniCard as components
 
-types 
-- glossary
-- caracter
-- location
-- faction
-- object
-- clocks
+## Main
 
-**Una Saga para Mago la cruzada**
+<Card :slug="$page.frontmatter.slug"/>
 
-En la Venecia del 1620 una serie de fuerzas conspiran para moldear Europa.
+## Abstract
 
-- [ ] list
+> El Gran Maestre de los Artificieros y regente de Reino Invisible de Venecia. 
+> Poco sale de su laboratorio. En su búsqueda del Reino de Doissetep ha descubierto la existencia de Deus ex Machina. 
+> Le fascina totalmente. Está convencido que la Máquina será el bien supremo de la humanidad, 
+> porque acabará con el hambre, el trabajo y todo el mundo podrá dedicarse a ser científico y artista.
+
+<!-- more -->
+
+## Tramas
+
+### Nivel 0
+
+## Children
+
+<TagList :parent="$page.frontmatter.parent + '/' + $page.frontmatter.slug"/>
+
+
+## Glosario Global
 
 <TagList />
-
-<TagCard slug="leonardo-da-vinci" />
-
-<Card slug="leonardo-da-vinci" />
-
-## La Serenissima
-  ### La Orden de la Razón
-
-## Doissetep
-
-```
-Doissetep es la Alianza más poderosa de la Tierra. Muy pocos conocen de su existencia y todavía menos donde encontrarla. La Orden de la Razón la busca con ahínco pero no puede encontrarla porque no se encuentra en este mundo, un concepto que todavía se les escapa. Núcleo de la resistencia de las Tradiciones contra la Tecnocrácia, desde aquíse organizan para arrebatar la posición de dominancia de la Razón.
-```
-
-## Los Benandanti
-  ### Nueva Jerusalem
-  ### La Cocina de Gargantúa
-  ### La Orden de Orfeo
-  ### La Restauración
 

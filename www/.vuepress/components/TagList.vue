@@ -30,13 +30,16 @@ export default {
 				p.frontmatter.parent_slug = path.basename(p.frontmatter.parent);
 				return p;
 			}).filter( p => {
+				if (!p.frontmatter.image && !p.frontmatter.description) return false;
+				return true;
+			}).filter( p => {
 				if (this.exclude && this.exclude==p.frontmatter.slug) return false;
 				return true;
 			}).filter( p => {
 				if (this.parent && this.parent!=p.frontmatter.parent) return false;
 				return true;
 			}).sort((a,b) => {
-				return a.title < b.title;
+				return a.frontmatter.title < b.frontmatter.title;
 			});
 
 			return items;
