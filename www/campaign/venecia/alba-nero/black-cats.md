@@ -7,6 +7,9 @@ sheet:
     - Alerta 6, Artesanía 8
     - Teleportarse.
 ---
+## Main
+
+<Card :slug="$page.frontmatter.slug"/>
 
 > Supervivientes y descendientes de una gata familiar de Paola Giscona, 
 > una Verbena quemada por bruja hace 50 años por la Orden de la Razón
@@ -19,10 +22,14 @@ sheet:
 
 ## Tramas
 
+- TODO Hacer aventura solo con gatos antes pedir ayuda pj. Ejemplo la Suma Sacerdotisa ha sido traicionada por MediaOreja y ha huido a las catacumbas, donde las ratas y el Rey de las Ratas habitan. 
+- Monarchies of Mau
+
 ### Nivel 0
 - [ ] Conocen a Nero y sus capacidades mágicas. Nero pide ayuda porque se han llevado a Alba.
 - [ ] Unos niños están torturando un gato. Desde los tejados unos gatos negros miran. Llegan los pj.
       Unos días después uno de los niños, un gûl, muere al caersele en la cabeza una viga de una obra.
+- [ ] Se encuentran a un gato en el Sanctum leyendo un libro de invocaciones. Se hace el inocente gatito. Realmente un demonio         oculto.
 
 ### Nivel 1
 - [ ] Existe una comunidad de Gatos Negros con poderes mágicos. Descendientes de la Maga Verbena
@@ -47,15 +54,30 @@ sheet:
 
 ## Nero
 
-## Historias
+## Suma Sacerdotisa
 
-- [ ] A un rico gordo le roban y atrapa al ladrón. Quieren cortarle la mano.
-- [ ] Roban a un pj y hay una huida por tejados y canales. Acaban metiendose por algún agujero estrecho que va a un sotano que
-tiene otro agujero estrecho y desaparecen. 
+## El Cazador de Ojos
 
-Los gatos tienen una sociedad secreta.
-Hasta organizan asesinatos, castigos, pociones de amor. Se pasan info. Eliminan perros, ...
-gato serial killer que se transforma en persona ...
-castigo a niños que torturan gatos
-gato desarrapado quiere revolución
-gata suprema pide ayuda, su especie se está extibguiendo por consaguineidad, necesitat renovavión
+## Media Oreja
+
+## Marla la Ladrona
+
+## El Encantador de Perros
+
+## La Desratizadora
+
+## Gato Infernalista
+Demonio en cuerpo de gato.
+
+
+## Parent
+
+<TagCard :slug="$page.frontmatter.parent_slug" />
+
+## Children
+
+<TagList :parent="$page.frontmatter.parent + '/' + $page.frontmatter.slug"/>
+
+## Related
+
+<TagList :parent="$page.frontmatter.parent" :exclude="$page.frontmatter.slug"/>

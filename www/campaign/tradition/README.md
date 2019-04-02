@@ -1,7 +1,6 @@
 ---
 title: Las Tradiciones
 description: Confederación de Mags contra la Orden de la Razón 
-image: traditions.jpg
 sheet:
     - Fisico 2, Social 3, Mental 4
     - Alerta 6, Artesanía 8

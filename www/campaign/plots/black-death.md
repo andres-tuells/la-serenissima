@@ -1,0 +1,1 @@
+https://medium.com/@Naturalish/rat-kings-what-are-they-really-ef67359ad34e

@@ -13,14 +13,12 @@ sheet:
 
 <Card :slug="$page.frontmatter.slug"/>
 
-## Abstract
 
-> Maestra Akashika de origen holandés. Se coló en un barco mercante y descubrió nuevos mundos y una tradición oriental 
-> desabiduría y lucha. Fue enviada a Doissetep donde perfeccionó sus estudios. Ha sido enviada de vuelta a la Tierra 
-> para mantener oculto a Doissetep. Borrar todo rastro y plantar pistas faltas.
-> Todo esto siendo ella también indetectable.
+## Mago transexual transformacion
 
-<!-- more -->
+## Mago golem
+
+## Maga flambeau
 
 ## Tramas
 

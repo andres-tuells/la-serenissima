@@ -26,3 +26,7 @@ sheet:
 <Characters faction="benandanti"/>
 
 ## Historias
+
+- Arbol lleno de colgados, un jorobado esta escarbando debajo de ellos buscando madragoras para curar su joroba y encima niño colgado todavia vivo.
+
+“Quiero contar la manera que [los] mexicanos tienen en hacer esclavos, porque es muy diferente de la nuestra. Los cautivos en guerra no servían de esclavos, sino de sacrificados, y no hacían más que comer para ser comidos. Los padres podían vender por esclavos a sus hijos, y cada hombre y mujer a sí mismo. Cuando alguno se vendía, había de pasar la venta delante a lo menos de cuatro testigos”.

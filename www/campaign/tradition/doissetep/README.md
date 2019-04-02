@@ -8,11 +8,6 @@ sheet:
     - Teleportarse.
 ---
 
-# Doissetep
-
-
-
-
 ## Main
 
 <Card :slug="$page.frontmatter.slug"/>

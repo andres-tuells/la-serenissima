@@ -1,7 +1,7 @@
 ---
-title: Gatos Negros
-description: Gatos negros descendientes de la familiar de una Verbena quemada por bruja 
-image: black-cats.jpg
+title: La Secta de los Ciegos
+description: Adoradores de Mil Ojos, le han entregado sus ojos 
+image: blind-monk.jpg
 sheet:
     - Fisico 2, Social 3, Mental 4
     - Alerta 6, Artesanía 8

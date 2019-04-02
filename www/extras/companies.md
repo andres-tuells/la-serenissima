@@ -6,6 +6,8 @@ Companies exist to do something, though that goal often changes over time.
 Nevertheless, the goal keeps the group united, be it as vague as “Seek knowledge wherever
 it’s found” or as concrete as “Assassinate the king!”
 
+[Reign Moves](/files/reign_moves.pdf)
+
 ## Qualities
 
 Each Quality reflects your Company’s ability to get things done in the world. Spying
@@ -148,3 +150,87 @@ your Territory by 1 and decrease theirs by 1 simply by succeeding at an annexati
 (See page 96 for rules on annexation.) However, if you continue to attack them and
 completely destroy them, it won’t increase your Territory further.
 
+### Conflict
+
+You can use a Quality once per month for each level you have in it. With Territory 6, you
+can apply it six times each month. Might 3 lets you can engage in three major military
+actions per month.
+There’s a catch, however. Every time you use a Quality, it takes a –1 penalty until the next
+month. These can be offset by raising the pool (see below) but the first military action
+your Might 5 war machine takes in a month is going to be far more effective than the
+fourth action, when it’s eroded to Might 1
+
+Lockfang’s Company has Influence 4, Territory 2 and Sovereignty 2. His first Influence
+action for the month is to seek them with an Influence+Sovereignty roll, which is 6d. He
+fails. He now has a –1 penalty to both Influence and Sovereignty. He tries again at 4d, and
+this time makes it. His Sovereignty is now effectively 0 and his Influence has dropped to
+2. He can combine Influence with Territory to seek the spies with a 4d pool. He fails, and
+each Quality drops by one point again. If he wants to keep looking for them he can roll
+2d. Or he can save his remaining point of Territory in case someone attacks him, or to try
+and improve one of his other Qualities. 
+
+Action Effect
+Catastrophe! Accidentally poison your army on the eve of battle.	 -3d
+Humiliating Failure. Throw up during a diplomatic banquet.	 -2d
+Error. Pursue support of your levies by saying, “I’ll tax you peasant bastards until you bleed!” -1d
+Washout. Try to persuade a neighbor to ally with you,
+but without offering incentives or threats. 	 	 	 	 	 No effect
+Minor success. Gain good tactical intelligence on the eve of the battle. 	 	 +1d
+Significant success. Become a key patron for a genius artist.	 +ED
+Outstanding success. Solidify your hold on the population’s hearts
+with a public marriage to a beautiful princess.	 	 	 	 +2d
+Major success. Persuade a neighbor that some of his land is worthless,
+buy it cheap, and find gold on it.	 	 	 	 	 	 +MD
+Spectacular coup! Assassinate your rival to the throne on the eve of a “spontaneous uprising.” +3d
+Epic triumph! Manipulate the enemy king into facing you in
+single combat before his army—and kill him. 	 	 	 	 +1+MD
+Mastermind Maneuver! Seduce the enemy’s Supreme	 	 	 	 +2+MD
+
+### Conquest
+
+If your Company attacks another Company, it might conquer it completely. This is
+described in full on page 98, but basically you have to meet two conditions.
+Reduce two of your enemy’s Qualities to zero.
+One of the Qualities zeroed out must be either Territory or Sovereignty.
+The outcome depends on the relative size of your Company and your victim. ‘Size’ in this
+instance means ‘combined total of all five Qualities’.
+If the Company was half your size or smaller, you get nothing. If it was smaller, but more
+than half your size, you can improve any one Quality by a point if that increase makes
+sense. If it was equal size or larger, you can increase any two Qualities that make sense, or
+maybe raise one Quality by two points if the GM agrees.
+
+## Company Generation
+
+The easiest way to generate a Company is to give each player one (or more) points of
+Quality to assign as they wish. One per player is typical, but you could give two or more
+points per player.
+When you’re starting, you can alter the dynamic by deciding what the base PCs are like
+and what each character brings to the Company. A game where the players start out
+at Serious Adventurer (see page 35), but with only a point each to build their Company
+makes them scrappy outsiders raging against entrenched society. But what happens if
+characters at the lowest level of achievement have three points of Qualities to assign? The
+leadership of those who really need to rely on their Company is a different feel from those
+who don’t loose much if they scrap this group and start over.
+
+Remember, a Company has to meet certain minimum requirements every month to remain
+viable. It has to have at least one point in Sovereignty. Otherwise it simply collapses into
+a mob. It’s possible to keep going for a while with temporary improvements, but that’s life
+support. Eventually, the leaders have to tend to their people’s needs.
+
+In the rulebook it says there are 3 ways to permanently increase a Company's Quality: Combining, Conquest, and Experience. 
+
+## Seasons as Company
+
+Thematically, however, I think the best combination is to model seasons as sentient companies, to reflect the natural anthropormorphizing qualities of humanity. "Autumn helped us gather our crops in, but Winter attacked us savagely." makes a surprising amount of sense as metaphor.
+
+Seasons as companies each have a territory equal to the territory of the company. In order for the company's territory to increase, all four (or maybe 3 of the four) seasons must be defeated.
+
+The Might of a season represents the numbers of inimical forces that that season employs against thinking life. Winter should have the highest might, representing Cold, Famine, and Starving Animals. (This of course, means that the PCs can go off in fights against significant opponents.)
+
+The Treasure of a season primarily represents resources useful to the season like edible products. While iron deposits may be useful to humans, they're not hugely useful to the season. On the other hand, as the player's company gradually fights the seasons for their treasure, the realization of that treasure should be in native natural resources to be exploited. Thus, winter raids for treasure-as-food while the players fight to keep a mine open despite winter-frost.
+
+The Influence of a season represents its inherent discoverability as well as its resources for getting into places sneakily. Generally the seasons will have an influence as a function of their weather and noxious-vermin. Lots of bugs, freezing fogs, downpours: all of these fight scouts trying to learn about the threats of a season. At the same time, bugs can sniff out hidden Treasure (as food).
+
+The Soverignty of a season represents its "sheer cussedness." Is spring easily tamed, or is it a creature of flash floods, unexpected frosts, and bears?
+
+The territory of a season always starts out equal to the territory of the company, as it represents the current lands that the company is trying to hold and secure. Reductions in territory represent capital improvements the company puts in to mitigate the influences of any given aspect of nature. Once all X seasons have been reduced as per company conflict rules, the players can choose to expand their territory by one and begin anew, with a larger land.

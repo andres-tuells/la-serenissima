@@ -1,9 +1,11 @@
 <template>
 <div>
+	Total: {{items.length}}
 <div v-for="(item, index) in items">
   <TagCard :slug="item.frontmatter.slug" />
   <br>
 </div>
+
 </div>
 </template>
 
@@ -28,9 +30,10 @@ export default {
         		p.frontmatter.slug = path.basename(p.path).replace('.html','');
 				p.frontmatter.parent = path.dirname(p.path).replace('/','');
 				p.frontmatter.parent_slug = path.basename(p.frontmatter.parent);
+				if (!p.frontmatter.image)p.frontmatter.image = p.frontmatter.slug + '.jpg';
 				return p;
 			}).filter( p => {
-				if (!p.frontmatter.image && !p.frontmatter.description) return false;
+				if (!p.frontmatter.description) return false;
 				return true;
 			}).filter( p => {
 				if (this.exclude && this.exclude==p.frontmatter.slug) return false;
@@ -39,7 +42,11 @@ export default {
 				if (this.parent && this.parent!=p.frontmatter.parent) return false;
 				return true;
 			}).sort((a,b) => {
-				return a.frontmatter.title < b.frontmatter.title;
+				if (a.frontmatter.title < b.frontmatter.title)
+    				return -1;
+  				if (a.frontmatter.title > b.frontmatter.title)
+    				return 1;
+  				return 0;
 			});
 
 			return items;

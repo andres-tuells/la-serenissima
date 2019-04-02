@@ -1,8 +1,5 @@
 ---
 title: Adolf Hausdorf
-slug: adolf-hausdorf
-faction: reason
-location: venice
 description: Familiar mecánico de Leonardo da Vinci 
 image: adolf-hausdorf.jpg
 sheet:
@@ -17,3 +14,6 @@ sheet:
 
 - [ ] Al ojalá no te hubiera creado él contesta ojalá no me hubieras creado.
 - [ ] Prefiere no salir fuera por no sufrir la Paradoja.
+
+
+"If you would be a real seeker after truth, you must at least once in your life doubt, as far as possible, all things."--René Descartes, born OTD 1596.

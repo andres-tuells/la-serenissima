@@ -15,6 +15,10 @@
 
 ![](/images/filigree.png#centerme)
 
+
+## Disputa Tamurello y Leonardo da Vinci
+Hombre como máquina o como organismo. Tamurello ve al hombre como un ser vivo al que hay que domesticar mediante el miedo. Son las emociones las que permiten ser usadas como palancas contra los humanos. Leonardo cree que las emociones han de ser revocadas. Entonces el ser humano será perfecto.
+
 ## Artificieros
 
 Los Artificieros se dedican a construir máquinas por el bien de la humanidad.
