@@ -42,9 +42,11 @@ export default {
 				if (this.parent && this.parent!=p.frontmatter.parent) return false;
 				return true;
 			}).sort((a,b) => {
-				if (a.frontmatter.title < b.frontmatter.title)
+				const a_title = a.frontmatter.slug;
+				const b_title = b.frontmatter.slug;
+				if (a_title < b_title)
     				return -1;
-  				if (a.frontmatter.title > b.frontmatter.title)
+  				if (a_title > b_title)
     				return 1;
   				return 0;
 			});

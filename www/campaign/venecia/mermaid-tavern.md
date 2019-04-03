@@ -1,7 +1,6 @@
 ---
 title: La Sirena Tetuda
 description: Taverna la Sirena conocida por todos como la Sirena Tetuda 
-image: mermaid-tavern.jpg
 sheet:
     - Fisico 2, Social 3, Mental 4
     - Alerta 6, Artesanía 8

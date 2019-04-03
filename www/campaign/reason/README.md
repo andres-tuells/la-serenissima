@@ -1,20 +1,18 @@
-# La Orden de la Razón
+---
+title: Orden de la Razón
+description: Organización y composición de la Orden de la Razón
+---
+
+## Main
+
+<Card :slug="$page.frontmatter.slug"/>
+
+## Abstract
 
 > La Orden de la Razón domina en las grandes ciudades y ha desbancado a la Orden de Hermes como organización dominante.
 > Creen en la Razón como Dios. Su símbolo es el Sol.
 
-
-<Characters faction="reason"/>
-
--------------------------------
-**Nivel 0**
-- [ ] Dividen el mundo en Reinos Invisibles que se dedican a influir en la política y cultura del lugar.
-- [ ] El Sol, moneda de magos
-![](images/moneda.png#centerme)*Usan monedas de oro con caras de ilustres científicos y pensadores como moneda de cambio. Contienen quintaesencia y una vez usada la moneda se transforma en plomo. Puede ser recargada. La moneda guarda un punto de quintaesencia.*
--------------------------------
-
-![](/images/filigree.png#centerme)
-
+<!-- more -->
 
 ## Disputa Tamurello y Leonardo da Vinci
 Hombre como máquina o como organismo. Tamurello ve al hombre como un ser vivo al que hay que domesticar mediante el miedo. Son las emociones las que permiten ser usadas como palancas contra los humanos. Leonardo cree que las emociones han de ser revocadas. Entonces el ser humano será perfecto.
@@ -43,4 +41,25 @@ Los Artificieros se dedican a construir máquinas por el bien de la humanidad.
 
 > Antes conocido como Nicolas Machiavelli.
 
-![Familiar de Leonardo - Herón](/images/machiavelli.jpg#centerme)*Machiavelli, conocido ahora como Tamurello*
+## Tramas
+
+-------------------------------
+**Nivel 0**
+- [ ] Dividen el mundo en Reinos Invisibles que se dedican a influir en la política y cultura del lugar.
+- [ ] El Sol, moneda de magos
+![](images/moneda.png#centerme)*Usan monedas de oro con caras de ilustres científicos y pensadores como moneda de cambio. Contienen quintaesencia y una vez usada la moneda se transforma en plomo. Puede ser recargada. La moneda guarda un punto de quintaesencia.*
+-------------------------------
+
+
+## Parent
+
+<TagCard :slug="$page.frontmatter.parent" />
+
+## Children
+
+<TagList :parent="$page.frontmatter.parent + '/' + $page.frontmatter.slug"/>
+
+## Related
+
+<TagList :parent="$page.frontmatter.parent" :exclude="$page.frontmatter.slug"/>
+

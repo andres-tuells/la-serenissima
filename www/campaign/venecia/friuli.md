@@ -1,3 +1,8 @@
+---
+title: Friuli
+description: Provincia pobre del Venetto con frontera con Austria y Eslovenia
+---
+
 # Friuli
 
 https://en.wikipedia.org/wiki/Princely_County_of_Gorizia_and_Gradisca

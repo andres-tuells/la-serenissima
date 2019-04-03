@@ -9,3 +9,7 @@ Ellíder de su secta es el flautista. El flautista ha aprendido las tonadillas p
 ## La Música como Magia Órfica
 
 El primer flautista fue Orfeo, que enseñó a los gûls a no tener que comer carne.
+
+## La Huelga
+
+http://en.rfi.fr/france/20170315-paris-rat-catchers-strike

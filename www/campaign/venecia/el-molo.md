@@ -1,7 +1,6 @@
 ---
 title: El Molo
 description: El muelle de Venecia 
-image: mermaid-tavern.jpg
 sheet:
     - Fisico 2, Social 3, Mental 4
     - Alerta 6, Artesanía 8

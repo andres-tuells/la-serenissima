@@ -1,3 +1,9 @@
+---
+title: Campanile
+description: Torre que da las campanadas de noticas en Venecia
+---
+
+
 http://www.italyheaven.co.uk/veneto/venice/campanile.html
 
  the present appearance copies a later sixteenth-century design.

@@ -1,7 +1,6 @@
 ---
 title: San Marcos
 description: La gran plaza de los mercaderes y charlatanes 
-image: san-marcos.jpg
 sheet:
     - Fisico 2, Social 3, Mental 4
     - Alerta 6, Artesanía 8
