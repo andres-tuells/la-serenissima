@@ -3,6 +3,14 @@ title: Plots
 description: Collection of plot ideas
 ---
 
+## Nosferatu Heist
+
+Un Nosfertu de la ciudad ha robado algo importante,buscarlo y encontrarlo.
+
+## Town disapearence.
+Todo un pueblo ha sido absorvido por Nueva Jerusalem. No hay ni rastro.
+En un valle de los Alpes perdido.
+
 ## Time Wars
 
 Campaña de Archimagos, luchan en realidades paralelas y en el tiempo. 

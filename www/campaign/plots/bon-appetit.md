@@ -6,6 +6,10 @@ image: kitchen.jpg
 
 # Bon Appetit
 
+Los centuriones es una banda de poca monta instalados en un barrio pobre de Venecia. Su lider, Marcus, se empeña que han de tener 100hombres y contrata a más. El grupo creció a pesar de no tener las mejores instalaciones (viven hacinados en una casa de juego, prostitucion y bebidas). Al crecer tanto han llamado la atención. Han tenido enfrentamiento con los Estibadores que se preparan para la guerra.
+
+El Raja ha decidido ganar el concurso de comida de Venecia. Ha contratado a Pantagruel como cocinero y se enfrenta a su padre Gargantua. 
+
 ## Adventure Checklist
 
 - Odd Customs
@@ -23,7 +27,9 @@ The Festival of Gourmanderie is a peculiar affair.
 Cooking competitions are not unusual, but the enthusiasm with which the Duke and his citizens follow the
 proceedings is intense. More extraordinary is the
 complementary eating competition, in which contestants are encouraged to risk gut-bursting death in
-pursuit of victory
+pursuit of victory.
+
+
 
 
 ----------------------------

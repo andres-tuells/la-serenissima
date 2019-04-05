@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[50],{311:function(t,e,i){"use strict";i.r(e);var n=i(2),s=Object(n.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("https://en.wikipedia.org/wiki/Picatrix")])])},[],!1,null,null,null);e.default=s.exports}}]);

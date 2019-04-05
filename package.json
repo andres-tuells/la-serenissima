@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "./node_modules/vuepress/cli.js dev www",
-    "build": "./node_modules/vuepress/cli.js build www",
+    "build": "./node_modules/vuepress/cli.js build www -d docs && cp ./CNAME docs/",
     "eject": "./node_modules/vuepress/cli.js eject www"
   },
   "devDependencies": {

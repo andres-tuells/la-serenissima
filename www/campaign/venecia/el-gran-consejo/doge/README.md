@@ -15,13 +15,17 @@ sheet:
 
 ## Abstract
 
-> Familiar de ycreado por Leonardo da Vinci
-
-https://en.wikipedia.org/wiki/Nicol%C3%B2_Donato
-https://en.wikipedia.org/wiki/List_of_Doges_of_Venice#17th_century
-https://es.noticias.yahoo.com/cuando-los-monarcas-tenian-su-disposicion-un-aristocrata-para-que-les-limpiara-el-trasero-tras-usar-el-retrete-131419198.html
-
-TRAMA: España quiere hacerse con el control de Venecia con sobornos y politiqueos
+The CDX possessed its own armory, raised an army of 1500
+men, and used the Venetian ambassadors as intelligence officers abroad.
+Its purview included ‘‘All things concerning the security of the state and
+the preservation of morals.’’ The CDX prohibited members of the
+Consiglio Maggiore from carrying sidearms, and decreed that 200 soldiers
+should be distributed about Piazza di San Marco at night. It decreed that
+a watch of ten soldiers should be placed on each street, and that guards
+should stand watch over the Ducal palace every night. Finally, it
+mandated that men should patrol the lagoon that connects Venice to the
+mainland so that the route Badoer used to reach Venice could not be
+repeated
 
 ## Tramas
 
